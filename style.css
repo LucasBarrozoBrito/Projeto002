@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+
+}
+
+body{
+    background-color: rgba(70, 142,236);
+
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+
+
+section{
+    position: relative;
+    background-color: white;
+    border-radius:10px;
+    padding: 15px;
+    max-width: 500px;
+    min-height: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.401);
+
+}
+
+div#msg{
+    text-align: center;
+    padding: 10px;
+}
+
+div#foto{
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(+49% ,-40%);
+    margin:auto;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+a{
+    text-decoration:none;
+    color: white;
+}
